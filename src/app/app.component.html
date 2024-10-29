@@ -1,0 +1,12 @@
+<div class="tittle">
+  <h1>Welcome to Notes App!</h1>
+</div>
+<br>
+<h1 (click) = "addNotes()" class="add">&#10010;</h1>
+<div class="add-task" *ngIf = "addNodes">
+  <app-add-task (taskAdded)=" tasks.push({ id: tasks.length + 1, description: $event })"></app-add-task>
+</div>
+<br>
+<div class="task-list">
+  <app-task-list [tasks] = "tasks"></app-task-list>
+</div>

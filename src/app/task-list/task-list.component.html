@@ -1,0 +1,12 @@
+<h2>Your Notes</h2>
+<div class="task" *ngFor="let task of tasks">
+    <div class="desc">
+        <p (click) = "onRemoveClick(task.id)" class="close">&#10008;</p>
+        <p class="text"> &#10168; {{task.description}}</p>
+        <p class="edit" (click) = "onEditClick(task.id)">&#9998;</p>
+        <ng-template (click) = "onEditClick(task.id)">
+            <textarea></textarea>
+        </ng-template>
+    </div>
+    <br>
+</div>

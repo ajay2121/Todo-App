@@ -1,0 +1,14 @@
+.tittle{
+    text-align: center;
+}
+.add-task{
+    text-align: center;
+}
+.task-list{
+    text-align: center;
+}
+.add{
+    margin-left: 49%;
+    cursor: pointer;
+    width: fit-content;
+}

@@ -1,0 +1,31 @@
+*{
+    height: 100%;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.desc{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100%;
+    width: 75%;
+    text-align: left;
+    box-shadow: 5px 10px 8px gray;
+}
+.close{
+    margin-left: 750px;
+    cursor:pointer;
+    color: red;
+    width: 20px;
+    height: 25px;
+}
+.text{
+    margin-left: 0px;
+}
+.edit{
+    margin-left: 750px;
+    cursor:pointer;
+    color: black;
+    width: 20px;
+    height: 25px;
+}
